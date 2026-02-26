@@ -3,90 +3,89 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Luca Luca Architetto - Roma</title>
-    <meta name="description" content="Luca Luca, architetto a Roma, specializzato in grandi edifici. Richiedi una stima gratuita per i tuoi progetti architettonici.">
+    <meta name="title" content="Luca Luca Architetto a Roma">
+    <meta name="description" content="Scopri i servizi di progettazione e consulenza architettonica a Roma con Luca Luca. Richiedi una stima gratuita oggi!">
+    <title>Luca Luca Architetto a Roma</title>
     <style>
-        body { font-family: 'Inter', sans-serif; margin: 0; background-color: #f4f4f4; color: #333333; }
-        h1, h2, h3 { font-family: 'Montserrat', sans-serif; color: #1a1a1a; }
-        .header { background: #fff; padding: 10px 20px; position: sticky; top: 0; z-index: 1000; }
-        .menu { display: none; }
-        .hamburger { display: inline-block; cursor: pointer; }
-        .hero { background-image: url('https://res.cloudinary.com/dwezlyw69/image/upload/v1772060962/x7wfuqliqpvvt9fd2oaw.png'); height: 100vh; background-size: cover; display: flex; justify-content: center; align-items: center; text-align: center; color: #ffffff; }
-        .hero h1 { font-size: 3em; }
-        .section { padding: 50px 20px; }
-        .cta { background-color: #ff5722; color: #ffffff; padding: 10px 20px; text-decoration: none; border-radius: 5px; }
-        .footer { background-color: #1a1a1a; color: #ffffff; text-align: center; padding: 20px; }
-        .fade-in { opacity: 0; transition: opacity 1s; }
-        .fade-in.is-visible { opacity: 1; }
+        body {margin: 0; font-family: 'Inter', sans-serif; background-color: #FFFFFF; color: #333333;}
+        header {background-color: #003366; padding: 20px;}
+        header h1 {color: #FFCC00; font-family: 'Montserrat', sans-serif;}
+        .menu {display: none;}
+        .container {max-width: 1200px; margin: auto; padding: 20px;}
+        .hero {background-image: url('https://res.cloudinary.com/dwezlyw69/image/upload/v1772097143/dljbwmuw2gydkvyp5rbq.png'); background-size: cover; padding: 100px 20px; color: #FFFFFF;}
+        .services, .projects, .bio {padding: 60px 20px;}
+        .contact-form {background-color: #66CCFF; padding: 60px 20px;}
+        footer {background-color: #003366; color: #FFFFFF; padding: 20px;}
     </style>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"HomeAndConstructionBusiness","name":"luca luca","address":{"@type":"PostalAddress","addressLocality":"roma","addressCountry":"IT"},"email":"agenticsimpermeo@gmail.com","areaServed":"roma"}</script></head>
 <body>
-    <header class="header">
-        <div class="logo"><div style="background:#e8e8e8;padding:16px 24px;border-radius:8px;color:#999;font-size:13px;display:inline-block;">IL TUO LOGO</div></div>
-        <div class="hamburger">☰</div>
-        <nav class="menu">
-            <ul>
-                <li><a href="#hero">Home</a></li>
-                <li><a href="#services">Servizi</a></li>
-                <li><a href="#projects">Progetti</a></li>
-                <li><a href="#come-lavoro">Come Lavoro</a></li>
+    <header>
+        <h1><div style="background:#e8e8e8;padding:16px 24px;border-radius:8px;color:#999;font-size:13px;display:inline-block;">IL TUO LOGO</div> Luca Luca Architetto</h1>
+        <nav>
+            <button class="menu">☰</button>
+            <ul style="display:none;">
+                <li><a href="#chiSono">Chi Sono</a></li>
+                <li><a href="#lavori">Lavori</a></li>
+                <li><a href="#comeLavoro">Come Lavoro</a></li>
                 <li><a href="#contatti">Contatti</a></li>
             </ul>
         </nav>
     </header>
     <section id="hero" class="hero">
-        <h1>Luca Luca Architetto<br>Roma</h1>
+        <h2>Benvenuti da Luca Luca Architetto</h2>
+        <p>Innovazione e design per il tuo spazio a Roma.</p>
         <a href="#preventivo" class="cta">Richiedi una Stima Gratuita</a>
     </section>
-    <section id="services" class="section">
-        <h2>Servizi</h2>
-        <img src="https://res.cloudinary.com/dwezlyw69/image/upload/v1772060962/auwnax8ogew4evwm8qre.png" alt="Servizi">
-        <p>Specializzato in palazzi e grandi edifici, offriamo servizi architettonici completi a Roma.</p>
+    <section id="chiSono" class="bio">
+        <div class="container">
+            <h2>Chi Sono</h2>
+            <p>Palazzo</p>
+        </div>
     </section>
-    <section id="projects" class="section">
-        <h2>Progetti</h2>
-        <img src="https://res.cloudinary.com/dwezlyw69/image/upload/v1772060962/vt9oprbvpgpzfhs8uih9.png" alt="Progetti">
-        <p>Scopri i nostri progetti recenti, includendo il prestigioso lavoro sui palazzi di Roma.</p>
+    <section id="servizi" class="services">
+        <div class="container">
+            <h2>I Miei Servizi</h2>
+            <img src="https://res.cloudinary.com/dwezlyw69/image/upload/v1772097143/to2uxpwc6jotyznsmaeq.png" alt="Servizi di Progettazione">
+            <p>Palazza</p>
+        </div>
     </section>
-    <section id="come-lavoro" class="section">
-        <h2>Come Lavoro</h2>
-        <ol>
-            <li>Consultazione iniziale per comprendere le esigenze del cliente.</li>
-            <li>Progettazione e pianificazione dettagliata su misura.</li>
-            <li>Consegna del progetto e supporto continuo.</li>
-        </ol>
+    <section id="lavori" class="projects">
+        <div class="container">
+            <h2>Progetti Recenti</h2>
+            <img src="https://res.cloudinary.com/dwezlyw69/image/upload/v1772097143/tprna2pscrtochmxkhwz.png" alt="Progetto Architettonico">
+            <p>Palazzo</p>
+        </div>
     </section>
-    <section id="contatti" class="section">
-        <h2>Contatti</h2>
-        <form id="preventivo">
-            <input type="text" name="name" placeholder="Nome" required>
-            <input type="email" name="email" placeholder="Email" required>
-            <textarea name="message" placeholder="Messaggio" required></textarea>
-            <button type="submit" class="cta">Invia</button>
-        </form>
+    <section id="comeLavoro" class="approach">
+        <div class="container">
+            <h2>Come Lavoro</h2>
+            <ol>
+                <li><strong>Analisi</strong> - Comprendere appieno le esigenze del cliente.</li>
+                <li><strong>Progettazione</strong> - Elaborare soluzioni creative e funzionali.</li>
+                <li><strong>Realizzazione</strong> - Gestire ogni fase per un risultato impeccabile.</li>
+            </ol>
+        </div>
     </section>
-    <footer class="footer">
-        <div></div>
-        <p>&copy; 2023 Luca Luca Architetto. Tutti i diritti riservati.</p>
+    <section id="preventivo" class="contact-form">
+        <div class="container">
+            <h2>Contatti</h2>
+            <form>
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Messaggio:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Invia Messaggio</button>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <p>Seguici sui nostri social: </p>
     </footer>
     <script>
-        document.querySelector('.hamburger').addEventListener('click', function() {
-            document.querySelector('.menu').classList.toggle('show');
-        });
-        const options = {
-            threshold: 0.1
-        };
-        const observer = new IntersectionObserver((entries, observer) => {
-            entries.forEach(entry => {
-                if (entry.isIntersecting) {
-                    entry.target.classList.add('is-visible');
-                }
-            });
-        }, options);
-        document.querySelectorAll('.fade-in').forEach(section => {
-            observer.observe(section);
+        document.querySelector('.menu').addEventListener('click', function() {
+            document.querySelector('nav ul').classList.toggle('show');
         });
     </script>
 </body>
